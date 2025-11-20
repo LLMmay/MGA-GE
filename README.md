@@ -33,10 +33,16 @@ It includes data preprocessing, assembly, binning, dereplication, genome quality
 
 ## Requirements
 
-- **QC & Assembly**: `fastp`, `bwa`, `samtools`, `metaSPAdes`, `megahit`  
-- **Binning**: `SemiBin2`, `metawrap`  
-- **Dereplication & QC**: `dRep`, `CheckM2`  
-- **Abundance estimation**: `CoverM`  
+## Requirements
+
+- **QC & Assembly**: `fastp v0.20.1`, `bwa-mem v0.7.17`, `samtools v1.9`, `metaSPAdes v3.15.4`, `MEGAHIT v1.2.9`
+
+- **Binning**: `SemiBin2`, `metawrap`
+
+- **Dereplication & QC**: `dRep v3.4.5`, `CheckM v1.2.1`
+
+- **Abundance estimation**: `CoverM v0.6.1`
+
 - **Visualization**: R packages `ggplot2`, `patchwork`, `cowplot`, `gggenes`, `GOplot`, `plotly`, `networkD3`, etc.  
 
 ---
